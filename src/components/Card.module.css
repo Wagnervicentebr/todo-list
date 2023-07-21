@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    padding: 1rem;
+    align-items: flex-start;
+    gap: 0.75rem;
+    align-self: stretch;
+
+    border-radius: 0.5rem;
+    border: 1px solid var(--gray-400);
+    background: var(--gray-500);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 0.468rem;
+}
+
+.card span {
+    font-size: 0.875rem;
+    line-height: 1.225rem; 
+}
+
+.card img {
+    cursor: pointer;
+}
+
+.card svg {
+    color: var(--gray-300);
+    cursor: pointer;
+}
+
+.contentText {
+    flex: 1 0 0;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+
+.lineWithoutThrough {
+    text-decoration: none;
+}
+
+.card svg:hover {
+    background-color: var(--gray-400);
+    border-radius: 4px;
+    color: var(--red-500);
+}
